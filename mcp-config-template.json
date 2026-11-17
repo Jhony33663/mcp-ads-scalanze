@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "REEMPLAZAR_CON_ghp_TU_TOKEN"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:\\Type_b\\Brain-Ngrok-main"
+      ]
+    },
+    "meta-ads": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-facebook-ads"],
+      "env": {
+        "META_ACCESS_TOKEN": "REEMPLAZAR_CON_TU_TOKEN_META",
+        "META_AD_ACCOUNT_ID": "act_1425624883112131"
+      }
+    },
+    "tiktok-ads": {
+      "command": "python",
+      "args": ["-m", "tiktok_ads_mcp"],
+      "env": {
+        "TIKTOK_APP_ID": "REEMPLAZAR_CON_APP_ID",
+        "TIKTOK_SECRET": "REEMPLAZAR_CON_SECRET",
+        "TIKTOK_ACCESS_TOKEN": "REEMPLAZAR_CON_ACCESS_TOKEN",
+        "TIKTOK_ADVERTISER_ID": "REEMPLAZAR_CON_ADVERTISER_ID"
+      }
+    }
+  }
+}

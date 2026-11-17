@@ -1,0 +1,21 @@
+# Config con tokens reales (nunca versionar)
+mcp-config.json
+*.local.json
+
+# Credenciales
+.env
+*.key
+*.secret
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
